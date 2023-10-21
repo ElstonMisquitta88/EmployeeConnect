@@ -11,8 +11,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddSingleton<ISqlDataAccess, SqlDataAccess>();
-builder.Services.AddSingleton<IEmployeeData, EmployeeData>();
+builder.Services.AddScoped<ISqlDataAccess, SqlDataAccess>();
+builder.Services.AddScoped<IEmployeeData, EmployeeData>();
 
 var app = builder.Build();
 
