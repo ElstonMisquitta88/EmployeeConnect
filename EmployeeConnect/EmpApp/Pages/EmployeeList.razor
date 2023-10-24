@@ -1,0 +1,40 @@
+﻿@page "/EmployeeList"
+<h3>EmployeeList</h3>
+@using EmpApp.Data
+@inject EmployeeModelService EmployeeService
+
+@if (EmplData == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var forecast in EmplData)
+    {
+        <tr>
+            <td>@forecast.FirstName </td>
+            <td>@forecast.LastName  </td>
+        </tr>
+    }
+}
+
+
+
+
+
+
+<div class="form-group row">
+    <label for="firstName" class="col-sm-2 col-form-label">
+        First Name
+    </label>
+    <div class="col-sm-10">
+        <InputText id="firstName" class="form-control" placeholder="First Name" @bind-Value="Els.FirstName" />
+    </div>
+    <label for="firstName" class="col-sm-2 col-form-label">
+        Last Name
+    </label>
+    <div class="col-sm-10">
+        <InputText id="firstName" class="form-control" placeholder="First Name" @bind-Value="Els.LastName " />
+    </div>
+</div>
+
