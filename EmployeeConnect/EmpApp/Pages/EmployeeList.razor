@@ -28,13 +28,17 @@ else
         First Name
     </label>
     <div class="col-sm-10">
-        <InputText id="firstName" class="form-control" placeholder="First Name" @bind-Value="Els.FirstName" />
+        <InputText id="firstName" class="form-control" placeholder="First Name" @bind-Value="EmpInput.FirstName" />
     </div>
     <label for="firstName" class="col-sm-2 col-form-label">
         Last Name
     </label>
     <div class="col-sm-10">
-        <InputText id="firstName" class="form-control" placeholder="First Name" @bind-Value="Els.LastName " />
+        <InputText id="firstName" class="form-control" placeholder="First Name" @bind-Value="EmpInput.LastName " />
     </div>
 </div>
+
+<EditForm Model=@EmpInput OnSubmit=@FormSubmitted>
+    <input type="submit" value="Submit" class="btn btn-primary" />
+</EditForm>
 
