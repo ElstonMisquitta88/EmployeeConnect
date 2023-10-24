@@ -9,9 +9,6 @@ namespace EmpApp.Pages
         private EmployeeModel EmpInput { get; set; } = new EmployeeModel();
 
 
-
-
-
         protected override async Task OnInitializedAsync()
         {
            EmplData = await EmployeeService.GetEmployeeAsync();
