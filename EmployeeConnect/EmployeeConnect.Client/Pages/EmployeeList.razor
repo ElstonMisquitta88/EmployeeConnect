@@ -1,0 +1,18 @@
+﻿@page "/EmployeeList"
+<h3>EmployeeList</h3>
+
+
+@if (EmplDataList == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var forecast in EmplDataList)
+    {
+        <tr>
+            <td>@forecast.FirstName </td>
+            <td>@forecast.LastName  </td>
+        </tr>
+    }
+}
