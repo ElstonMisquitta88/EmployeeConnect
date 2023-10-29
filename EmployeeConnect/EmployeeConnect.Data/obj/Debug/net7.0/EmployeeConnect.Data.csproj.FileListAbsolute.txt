@@ -1,0 +1,12 @@
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\bin\Debug\net7.0\EmployeeConnect.Data.deps.json
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\bin\Debug\net7.0\EmployeeConnect.Data.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\bin\Debug\net7.0\EmployeeConnect.Data.pdb
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\EmployeeConnect.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\EmployeeConnect.Data.AssemblyInfoInputs.cache
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\EmployeeConnect.Data.AssemblyInfo.cs
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\EmployeeConnect.Data.csproj.CoreCompileInputs.cache
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\EmployeeConnect.Data.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\refint\EmployeeConnect.Data.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\EmployeeConnect.Data.pdb
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\ref\EmployeeConnect.Data.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Data\obj\Debug\net7.0\EmployeeConnect.Data.csproj.AssemblyReference.cache
