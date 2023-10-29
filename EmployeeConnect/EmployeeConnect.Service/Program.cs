@@ -1,5 +1,7 @@
 using DataAccess.Data;
 using DataAccess.DbAccess;
+using EmployeeConnect.Service.Authorization;
+using EmployeeConnect.Service.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddScoped<IEmployeeData, EmployeeData>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 
@@ -22,9 +25,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseMiddleware<BasicAuthMiddleware>();
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
