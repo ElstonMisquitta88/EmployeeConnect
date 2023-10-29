@@ -31,3 +31,12 @@ D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\obj\Debug\net7
 D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\obj\Debug\net7.0\EmployeeConnect.Service.pdb
 D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\obj\Debug\net7.0\EmployeeConnect.Service.genruntimeconfig.cache
 D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\obj\Debug\net7.0\ref\EmployeeConnect.Service.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\Dapper.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\EmployeeConnect.Data.dll
+D:\GitHub\EmployeeConnect\EmployeeConnect\EmployeeConnect.Service\bin\Debug\net7.0\EmployeeConnect.Data.pdb

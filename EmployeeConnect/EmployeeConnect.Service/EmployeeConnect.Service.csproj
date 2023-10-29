@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\EmployeeConnect.Data\EmployeeConnect.Data.csproj" />
   </ItemGroup>
 
 </Project>
