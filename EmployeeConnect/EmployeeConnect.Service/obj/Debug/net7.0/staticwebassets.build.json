@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZrRmIkFHwjIYzC+xcnQNm7d/i5EVuiYbGtqQLUmZVdU=",
+  "Source": "EmployeeConnect.Service",
+  "BasePath": "_content/EmployeeConnect.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
