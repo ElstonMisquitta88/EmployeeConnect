@@ -8,6 +8,6 @@ namespace DataAccess.DbAccess
 {
     public interface ISqlDataAccess
     {
-        Task<IEnumerable<T>> FetchData<T, U>(string storedProcedure, U parameters, string connectionId = "Default");
+        Task<IEnumerable<T>> DataProcess<T, U>(string storedProcedure, U parameters, string connectionId = "Default");
     }
 }

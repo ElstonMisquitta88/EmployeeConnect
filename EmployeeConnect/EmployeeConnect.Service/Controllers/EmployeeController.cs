@@ -25,5 +25,19 @@ namespace EmployeeConnect.Service.Controllers
             var product = await _data.FetchEmployee("");
             return product == null ? NotFound() : Ok(product);
         }
+
+
+
+
+
+        [HttpPost]
+        [Route("SaveEmployee")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(EmployeeModel))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> SaveEmployee(EmployeeModel EmpData)
+        {
+            var product = await _data.SaveEmployee (EmpData);
+            return product == null ? NotFound() : Ok(product);
+        }
     }
 }

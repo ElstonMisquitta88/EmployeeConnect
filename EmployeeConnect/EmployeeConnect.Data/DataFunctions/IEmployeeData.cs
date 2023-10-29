@@ -10,5 +10,7 @@ namespace DataAccess.Data
     public interface IEmployeeData
     {
         Task<IEnumerable<EmployeeModel>> FetchEmployee(string SearchText);
+
+        Task<IEnumerable<EmployeeModel>> SaveEmployee(EmployeeModel _EmpData);
     }
 }

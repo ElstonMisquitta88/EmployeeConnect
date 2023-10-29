@@ -19,8 +19,15 @@ namespace DataAccess.Data
 
         public async Task<IEnumerable<EmployeeModel>> FetchEmployee(string _SearchText)
         {
-            return await _db.FetchData<EmployeeModel, dynamic>("Proc_GetEmployee", new { SearchText = _SearchText }, "Default");
+            return await _db.DataProcess<EmployeeModel, dynamic>("Proc_GetEmployee", new { SearchText = _SearchText }, "Default");
         }
+
+
+        public async Task<IEnumerable<EmployeeModel>> SaveEmployee(EmployeeModel _EmpData)
+        {
+            return await _db.DataProcess<EmployeeModel, dynamic>("Proc_SaveEmployee", new { FirstName = _EmpData.FirstName, LastName= _EmpData.LastName , Department= _EmpData.Department, MobileNo= _EmpData.MobileNo }, "Default");
+        }
+
 
     }
 }

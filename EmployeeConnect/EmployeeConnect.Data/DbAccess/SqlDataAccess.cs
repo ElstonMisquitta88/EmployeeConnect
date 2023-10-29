@@ -17,7 +17,7 @@ namespace DataAccess.DbAccess
         }
 
         // Generic Methods For Database
-        public async Task<IEnumerable<T>> FetchData<T, U>(
+        public async Task<IEnumerable<T>> DataProcess<T, U>(
                             string storedProcedure,
                             U parameters,
                             string connectionId = "Default")
